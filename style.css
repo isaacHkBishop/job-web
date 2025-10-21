@@ -6,18 +6,20 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
-body{
-}
 main{ 
     /* width: 100%; */
-    background-color: navy;
-    color: white;
-    /* border: 3px solid black; */
+    background-color: rgba(0, 0, 178, 0.668);
+    padding-left: 20px;
+    display: flex;
+    margin: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 17px black;
+    color: lightcyan;
 }
 
 nav{
     /* border: solid; */
-
 }
 footer{
     position: absolute;
@@ -35,8 +37,8 @@ span{
     color: lightcyan;
 }
 span.l{
-    font-size: xx-large;
-    padding-left: 20px;
+    font-size: 35px;
+    padding-left: 10px;
 }
 .text{
     /* width: 50%; */
@@ -45,6 +47,14 @@ span.l{
     h3{
         font-size: large;
     }
+    h2{
+        font-size: 50px;
+        padding-left: 20px;
+        /* border: solid; */
+    }
+}
+p{
+    /* border: solid; */
 }
 header{
     /* width: 100%; */
@@ -69,7 +79,7 @@ img.index{
 }
 nav.index{
     /* border: 3px solid black; */
-    /* height: 80px; */
+    height: auto;
     margin: auto;
     padding-right: 9px;
     align-self: center;
@@ -94,11 +104,11 @@ div.index{
         color: red; 
     }
     a{
-        /* border: 2px solid white; */
+        border: 2px solid black;
         color: black;
         border-radius: 5px;
-        margin: 2px;
-        padding: 20px;
+        margin: 5px;
+        padding: 15px;
         text-decoration: none;
         transition: 0.2s ease-out;
     }
