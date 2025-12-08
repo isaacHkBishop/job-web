@@ -120,6 +120,7 @@ article{
     /* padding-left: 17px; */
     padding-top: 17px;
     padding-bottom: 17px;
+    padding-right: 20px;
     font-size:large;
     width: fit-content;
     float: left;
@@ -149,15 +150,16 @@ article{
     }
     a{
         /* border: solid; */
-        text-decoration: none;
+        /* text-decoration: none; */
         /* width: 10px; */
         display: block;
+        color: black;
         /* width: 38%; */
         width: 390px;
         /* transition: 0.5s ease-in-out; */
     }
     li{
-        color: black;
+        color: lightcyan;
         /* border: solid; */
         font-weight: bold;
         margin-top: 15px;
