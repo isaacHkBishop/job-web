@@ -41,8 +41,7 @@ article{
     justify-content: center;
 }
 .text{
-    /* width: 50%; */
-    /* padding-left: 17px; */
+
     padding-top: 17px;
     padding-bottom: 17px;
     font-size:large;
@@ -98,8 +97,112 @@ article{
             width: 410px;
         }
     }
+    div{
+        /* border: solid; */
+        background-color: rgba(61, 61, 231, 0.784);
+        padding-left: 20px;
+        margin: 25px;
+        margin-left: 55px;
+        border-radius: 8px;
+        border: 3px solid black;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.527);
+        color: lightcyan;
+        transition: 0.3s ease-out;
+        max-width: 345px;
+        min-width: 215px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        /* width: 250px; */
+        /* float: left; */
     }
 }
+.text100{
+    /* padding-left: 17px; */
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size:large;
+    width: fit-content;
+    float: left;
+    /* display: flex; */
+    /* display: inline-block; */
+    cursor:default;
+    /* float: left; */
+    h3{
+        font-size: large;
+        padding-left: 20px;
+    }
+    h2{
+        font-size: 50px;
+        padding-left: 20px;
+        /*  border: solid; */
+        margin-top: 20px;
+        margin-bottom: 45px;
+    }
+    p{
+        color: black;
+        /* border: solid; */
+        font-weight: bold;
+        margin-top: 15px;
+        font-size: x-large;
+        margin-bottom: 15px;
+        transition: 0.2s ease-in-out;
+    }
+    a{
+        /* border: solid; */
+        text-decoration: none;
+        /* width: 10px; */
+        display: block;
+        /* width: 38%; */
+        width: 390px;
+        /* transition: 0.5s ease-in-out; */
+    }
+    li{
+        color: black;
+        /* border: solid; */
+        font-weight: bold;
+        margin-top: 15px;
+        font-size: x-large;
+        margin-bottom: 15px;
+        transition: 0.2s ease-in-out;
+    }
+    a:hover{
+        /* transition: 0.5s ease-in-out; */
+        p{
+            color: darkcyan;
+            font-weight: 900;
+            transition: 0.3s ease-in-out;
+            /* margin-top: 13px; */
+            /* margin-bottom: 15px; */
+        }
+        div{
+            background-color: lightgray;
+            transition: 0.2s ease-in;
+            /* overflow: auto; */
+            width: 410px;
+        }
+    }
+    div{
+        /* border: solid; */
+        background-color: rgba(61, 61, 231, 0.784);
+        padding-left: 20px;
+        margin: 25px;
+        margin-left: 55px;
+        border-radius: 8px;
+        border: 3px solid black;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.527);
+        color: lightcyan;
+        transition: 0.3s ease-out;
+        /* max-width: 345px; */
+        width: fit-content;
+        min-width: 215px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 20px;
+        /* float: left; */
+    }
+}
+}
+
 nav.main{
     padding-left: 20;
     padding-top: 17px;
